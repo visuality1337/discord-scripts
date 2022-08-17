@@ -1,2 +1,2 @@
-# Discord Scripts
-This Scripts got patched once, but i fixed them all :)
+# Discord Scripts - Updated
+I am updating this scripts once they get patched.
