@@ -1,8 +1,1 @@
-OLD THAT GOT PATCHED:
-
-Object.values(webpackJsonp.push([[],{[''] :(_,e,r)=>{e.cache=r.c}},[['']]]).cache).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser!==void0).exports.default.getCurrentUser().flags=-33
-
-
-
-NEW THAT I FIXED:
-Object.values(webpackChunkdiscord_app.push([[Math.random()], [], (e) => r=e.c])).find(m=>m.exports&&m.exports.default&&m.exports.default.getCurrentUser).exports.default.getCurrentUser().flags=-33
+window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getCurrentUser !== undefined) {return m.default.getCurrentUser().flags = -1;}if (m.getCurrentUser !== undefined) {return m.getCurrentUser().flags = -1}}}]);window.webpackChunkdiscord_app.push([[Math.random()], {}, (req) => {for (const m of Object.keys(req.c).map((x) => req.c[x].exports).filter((x) => x)) {if (m.default && m.default.getCurrentUser !== undefined) {return m.default.getCurrentUser().public_flags += 1;}if (m.getCurrentUser !== undefined) {return m.getCurrentUser().public_flags -= 33}}}])
